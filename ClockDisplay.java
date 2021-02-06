@@ -53,7 +53,7 @@ public class ClockDisplay
         }
         updateDisplay();
     }
-
+    
     /**
      * Set the time of the display to the specified hour and
      * minute.
@@ -64,7 +64,17 @@ public class ClockDisplay
         minutes.setValue(minute);
         updateDisplay();
     }
-
+    
+    public void get12HourInternalDisplay()
+    {
+        
+    }
+    
+    public void get24HourInternalDispay()
+    {
+        
+    }
+    
     /**
      * Return the current time of this display in the format HH:MM.
      */
